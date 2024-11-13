@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+  }
+      /* sir facebook ka font "Helvetica Neue" aik licensed font ha tabhi wo available nhi tha  google fonts ma to aik similar font Noto Sans ka use kia ha */
+  .facebook-text {
+    color: #1877f2;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .login-text {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: #1C1E21;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  input {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f5f6f7;
+  }
+
+  input::placeholder {
+    font-size: 16px;
+  }
+  button {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    background-color: #1877f2;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+#link{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px 18px;
+}
+a{
+    padding-top: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}  
